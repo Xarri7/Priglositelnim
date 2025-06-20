@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Dancing+Script:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Cormorant Garamond', serif;
+    background: #f8f6f0;
+  }
+}
+
+@layer components {
+  .elegant-script {
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .serif-elegant {
+    font-family: 'Cormorant Garamond', serif;
+  }
+  
+  .golden-ornament {
+    background: linear-gradient(45deg, #d4af37, #ffd700, #b8860b);
+    background-size: 200% 200%;
+    animation: shimmer 3s ease-in-out infinite;
+  }
+  
+  .kazakh-pattern-bg {
+    background-image: 
+      radial-gradient(circle at 25% 25%, rgba(212, 175, 55, 0.1) 2px, transparent 2px),
+      radial-gradient(circle at 75% 75%, rgba(212, 175, 55, 0.08) 1px, transparent 1px);
+    background-size: 60px 60px, 40px 40px;
+  }
+  
+  .ornate-border {
+    border-image: linear-gradient(45deg, #d4af37, #ffd700, #d4af37) 1;
+  }
+  
+  .text-shadow-gold {
+    text-shadow: 2px 2px 4px rgba(212, 175, 55, 0.3);
+  }
+  
+  .floating-element {
+    animation: gentle-float 6s ease-in-out infinite;
+  }
+  
+  .fade-in-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-out;
+  }
+  
+  .fade-in-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shimmer {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+@keyframes gentle-float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.ornament-svg {
+  filter: drop-shadow(2px 2px 4px rgba(212, 175, 55, 0.3));
+}
