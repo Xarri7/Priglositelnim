@@ -17,16 +17,16 @@ const LocationMap: React.FC = () => {
           </svg>
           
           <h2 className="elegant-script text-5xl md:text-6xl font-bold text-amber-800 mb-4 text-shadow-gold">
-            Адрес проведения
+            Мекен-жайы
           </h2>
           <p className="serif-elegant text-xl text-amber-700 italic mb-6">
-            Мекен-жайы
+            Той өтетін орын
           </p>
           <p className="serif-elegant text-lg text-amber-700 mb-2">
-            Ресторан "ДОС" расположен в центре города Караганды
+            "ДОС" мейрамханасы Қарағанды қаласының орталығында орналасқан
           </p>
           <p className="serif-elegant text-base text-amber-600 opacity-90">
-            Ресторан "ДОС" Қарағанды қаласының орталығында орналасқан
+            Табу оңай, жету ыңғайлы
           </p>
         </div>
 
@@ -60,7 +60,7 @@ const LocationMap: React.FC = () => {
             
             <h3 className="serif-elegant text-2xl md:text-3xl font-bold text-amber-800 mb-8 flex items-center justify-center">
               <Navigation className="w-8 h-8 mr-4" />
-              Адрес и контакты
+              Мекен-жайы мен байланыс
             </h3>
             
             <div className="grid md:grid-cols-2 gap-8">
@@ -73,9 +73,9 @@ const LocationMap: React.FC = () => {
                   </svg>
                 </div>
                 <div>
-                  <p className="serif-elegant font-bold text-amber-800 text-xl mb-2">Ресторан "ДОС"</p>
-                  <p className="serif-elegant text-amber-700 text-lg font-medium">г. Караганда</p>
-                  <p className="serif-elegant text-amber-700 text-base">ул. Хайрулла Кабжанова</p>
+                  <p className="serif-elegant font-bold text-amber-800 text-xl mb-2">"ДОС" мейрамханасы</p>
+                  <p className="serif-elegant text-amber-700 text-lg font-medium">Қарағанды қаласы</p>
+                  <p className="serif-elegant text-amber-700 text-base">Хайрулла Қабжанов көшесі</p>
                 </div>
                 
                 <div className="flex items-center justify-center mt-6 space-x-3">
@@ -87,7 +87,7 @@ const LocationMap: React.FC = () => {
               <div className="bg-amber-50 rounded-lg p-8 border border-amber-200">
                 <h4 className="serif-elegant font-bold text-amber-800 mb-6 text-xl flex items-center justify-center">
                   <Car className="w-6 h-6 mr-3" />
-                  Транспорт
+                  Көлік жүру
                 </h4>
                 <div className="space-y-4 text-amber-700">
                   <div className="flex items-start space-x-3">
@@ -96,8 +96,8 @@ const LocationMap: React.FC = () => {
                       <circle cx="10" cy="10" r="3" fill="#d4af37"/>
                     </svg>
                     <div>
-                      <p className="serif-elegant text-base font-medium">На автомобиле:</p>
-                      <p className="serif-elegant text-sm">бесплатная парковка</p>
+                      <p className="serif-elegant text-base font-medium">Жеке көлікпен:</p>
+                      <p className="serif-elegant text-sm">тегін автотұрақ бар</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
@@ -106,8 +106,8 @@ const LocationMap: React.FC = () => {
                             fill="#d4af37"/>
                     </svg>
                     <div>
-                      <p className="serif-elegant text-base font-medium">Общественный транспорт:</p>
-                      <p className="serif-elegant text-sm">автобусы №5, 12, 28</p>
+                      <p className="serif-elegant text-base font-medium">Қоғамдық көлікпен:</p>
+                      <p className="serif-elegant text-sm">№5, 12, 28 автобустар</p>
                     </div>
                   </div>
                 </div>
@@ -125,17 +125,17 @@ const LocationMap: React.FC = () => {
               </svg>
               
               <p className="serif-elegant text-xl font-bold text-amber-800 mb-3">
-                Нужна помощь с дорогой?
+                Жолды табуда көмек керек пе?
               </p>
               <div className="flex items-center justify-center mb-4">
                 <Phone className="w-5 h-5 text-amber-600 mr-3" />
                 <p className="serif-elegant font-bold text-amber-800 text-lg">+7 707 246 06 03</p>
               </div>
               <p className="serif-elegant text-amber-700 text-base">
-                Звоните, мы поможем добраться
+                Қоңырау шалыңыз, біз жолды табуға көмектесеміз
               </p>
               <p className="serif-elegant text-amber-600 text-sm mt-2 opacity-80">
-                Қоңырау шалыңыз, біз жолды табуға көмектесеміз
+                Кез келген уақытта хабарласуға болады
               </p>
             </div>
           </div>

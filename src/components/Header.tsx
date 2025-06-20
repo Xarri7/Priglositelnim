@@ -45,7 +45,7 @@ const Header: React.FC = () => {
         {/* Names */}
         <div className="mb-12">
           <h1 className="elegant-script text-6xl md:text-8xl lg:text-9xl font-bold text-amber-800 mb-4 text-shadow-gold">
-            Нургиса
+            Нұрғиса
           </h1>
           <div className="flex items-center justify-center my-6">
             <div className="w-20 h-px bg-gradient-to-r from-transparent via-amber-600 to-transparent"></div>
@@ -61,17 +61,17 @@ const Header: React.FC = () => {
         <div className="bg-white bg-opacity-80 backdrop-blur-sm rounded-lg p-8 shadow-lg border border-amber-200 max-w-2xl mx-auto mb-8">
           <div className="text-center">
             <p className="serif-elegant text-2xl text-amber-900 mb-2 font-medium">
-              3 августа 2025 года
+              2025 жылдың 3 тамызы
             </p>
             <p className="serif-elegant text-xl text-amber-800 mb-4">
-              воскресенье, 13:00
+              жексенбі, сағат 13:00
             </p>
             <div className="w-16 h-px bg-amber-600 mx-auto mb-4"></div>
             <p className="serif-elegant text-lg text-amber-900 font-medium">
-              Ресторан "ДОС"
+              "ДОС" мейрамханасы
             </p>
             <p className="serif-elegant text-base text-amber-800">
-              г. Караганда, ул. Хайрулла Кабжанова
+              Қарағанды қаласы, Хайрулла Қабжанов көшесі
             </p>
           </div>
         </div>
@@ -79,10 +79,10 @@ const Header: React.FC = () => {
         {/* Invitation Text */}
         <div className="max-w-3xl mx-auto">
           <p className="serif-elegant text-xl md:text-2xl text-amber-900 leading-relaxed mb-4">
-            Приглашаем вас разделить с нами радость
+            Біздің ерекше күнімізбен бірге қуанышты бөлісуге
           </p>
           <p className="serif-elegant text-lg md:text-xl text-amber-800 leading-relaxed">
-            нашего особенного дня
+            сіздерді шақырамыз
           </p>
         </div>
         

@@ -19,10 +19,10 @@ const Invitation: React.FC = () => {
           </svg>
           
           <h2 className="elegant-script text-5xl md:text-6xl font-bold text-amber-800 mb-4 text-shadow-gold">
-            Дорогие друзья!
+            Құрметті достар!
           </h2>
           <p className="serif-elegant text-xl text-amber-700 italic">
-            Құрметті достар мен отбасы!
+            Қадірлі отбасы мүшелері мен жақындар!
           </p>
         </div>
         
@@ -65,13 +65,12 @@ const Invitation: React.FC = () => {
             
             <div className="space-y-8 text-amber-900">
               <p className="serif-elegant text-xl md:text-2xl leading-relaxed font-medium">
-                С огромной радостью и трепетом в сердце приглашаем вас на торжество, 
-                которое станет началом нашего совместного пути.
+                Жүрегіміздегі зор қуаныш пен дірілмен сіздерді біздің ортақ жолымыздың 
+                басталуы болатын салтанатты жиынға шақырамыз.
               </p>
               
               <p className="serif-elegant text-lg md:text-xl leading-relaxed text-amber-800 italic">
-                Жүрегіміздегі зор қуаныш пен дірілмен сіздерді біздің ортақ жолымыздың 
-                басталуы болатын салтанатты жиынға шақырамыз.
+                Махабатымыздың мерекесіне қатысып, бізбен бірге қуанышты бөлісіңіздер.
               </p>
               
               <div className="bg-amber-50 p-8 rounded-lg border border-amber-200 my-8">
@@ -79,15 +78,15 @@ const Invitation: React.FC = () => {
                   "Екі жүрек бір болғанда, бақыт мәңгілік болады"
                 </p>
                 <p className="serif-elegant text-base text-amber-700 italic">
-                  Когда два сердца становятся одним, счастье становится вечным
+                  Ата-бабаларымыздың даналығы
                 </p>
               </div>
               
               <p className="serif-elegant text-xl md:text-2xl font-semibold text-amber-900">
-                Приходите и станьте частью нашей истории любви!
+                Келіңіздер және біздің махабат тарихымыздың бөлігі болыңыздар!
               </p>
               <p className="serif-elegant text-lg text-amber-800 italic">
-                Келіңіздер және біздің махабат тарихымыздың бөлігі болыңыздар!
+                Сіздердің қатысуыңыз - біздің ең үлкен бақытымыз!
               </p>
             </div>
           </div>

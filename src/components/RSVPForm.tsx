@@ -4,7 +4,7 @@ import { MessageCircle, Phone } from 'lucide-react';
 const RSVPForm: React.FC = () => {
   const handleWhatsAppClick = () => {
     const phoneNumber = '77072460603';
-    const message = encodeURIComponent('Сәлеметсіз бе! Нургиса мен Розаның тойына қатысуымды растағым келеді. / Здравствуйте! Хочу подтвердить свое участие в свадьбе Нургисы и Розы.');
+    const message = encodeURIComponent('Сәлеметсіз бе! Нұрғиса мен Розаның тойына қатысуымды растағым келеді.');
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
     window.open(whatsappUrl, '_blank');
   };
@@ -24,16 +24,16 @@ const RSVPForm: React.FC = () => {
           </svg>
           
           <h2 className="elegant-script text-5xl md:text-6xl font-bold text-amber-800 mb-4 text-shadow-gold">
-            Подтверждение присутствия
+            Қатысуды растау
           </h2>
           <p className="serif-elegant text-xl text-amber-700 italic mb-6">
-            Қатысуды растау
+            Келуіңізді алдын ала хабарлаңыз
           </p>
           <p className="serif-elegant text-lg text-amber-700 mb-2">
-            Пожалуйста, подтвердите свое участие до 25 июля 2025 года
+            2025 жылдың 25 шілдесіне дейін қатысуыңызды растаңыз
           </p>
           <p className="serif-elegant text-base text-amber-600 opacity-90">
-            2025 жылдың 25 шілдесіне дейін қатысуыңызды растаңыз
+            Алдын ала дайындық жасау үшін маңызды
           </p>
         </div>
 
@@ -72,18 +72,18 @@ const RSVPForm: React.FC = () => {
             </div>
             
             <h3 className="elegant-script text-4xl md:text-5xl font-bold text-amber-800 mb-6 text-shadow-gold">
-              Подтвердите через WhatsApp
+              WhatsApp арқылы растаңыз
             </h3>
             <h4 className="serif-elegant text-xl text-amber-700 mb-8 italic">
-              WhatsApp арқылы растаңыз
+              Жылдам және ыңғайлы тәсіл
             </h4>
             
             <div className="bg-amber-50 p-8 rounded-lg mb-8 border border-amber-200">
               <p className="serif-elegant text-lg text-amber-800 mb-4 font-medium">
-                Нажмите на кнопку ниже и подтвердите участие через WhatsApp
+                Төмендегі батырманы басып, WhatsApp арқылы қатысуыңызды растаңыз
               </p>
               <p className="serif-elegant text-base text-amber-700 opacity-90">
-                Төмендегі батырманы басып, WhatsApp арқылы қатысуыңызды растаңыз
+                Бір шерту арқылы хабарлама жіберіңіз
               </p>
             </div>
 
@@ -92,7 +92,7 @@ const RSVPForm: React.FC = () => {
               className="bg-green-600 hover:bg-green-700 text-white py-6 px-12 rounded-xl font-bold text-xl transition-all transform hover:scale-105 shadow-lg border-2 border-green-700 flex items-center justify-center mx-auto space-x-4 mb-8"
             >
               <MessageCircle className="w-8 h-8" />
-              <span className="serif-elegant">Подтвердить через WhatsApp</span>
+              <span className="serif-elegant">WhatsApp арқылы растау</span>
             </button>
 
             <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
@@ -101,19 +101,19 @@ const RSVPForm: React.FC = () => {
                 <p className="serif-elegant font-bold text-blue-800 text-lg">+7 707 246 06 03</p>
               </div>
               <p className="serif-elegant text-blue-700 text-sm">
-                При возникновении вопросов обращайтесь по этому номеру
+                Сұрақтарыңыз болса, осы нөмірге хабарласыңыз
               </p>
               <p className="serif-elegant text-blue-600 text-xs mt-1 opacity-80">
-                Сұрақтарыңыз болса, осы нөмірге хабарласыңыз
+                Кез келген уақытта қоңырау шалуға болады
               </p>
             </div>
 
             <div className="bg-amber-50 p-8 rounded-lg mt-8 border border-amber-200">
               <p className="elegant-script text-3xl text-amber-800 font-bold mb-3 text-shadow-gold">
-                Ваше присутствие - наше счастье!
+                Сіздердің қатысуыңыз - біздің бақытымыз!
               </p>
               <p className="serif-elegant text-lg text-amber-700 italic">
-                Сіздердің қатысуыңыз - біздің бақытымыз!
+                Қуанышты сәтімізді бірге тойлайық!
               </p>
             </div>
           </div>

@@ -17,10 +17,10 @@ const EventDetails: React.FC = () => {
           </svg>
           
           <h2 className="elegant-script text-5xl md:text-6xl font-bold text-amber-800 mb-4 text-shadow-gold">
-            Детали торжества
+            Той туралы мәліметтер
           </h2>
           <p className="serif-elegant text-xl text-amber-700 italic">
-            Той туралы мәліметтер
+            Салтанатты жиын туралы ақпарат
           </p>
         </div>
 
@@ -37,9 +37,9 @@ const EventDetails: React.FC = () => {
             <div className="mt-8 mb-6">
               <Calendar className="w-12 h-12 text-amber-600 mx-auto mb-4" />
             </div>
-            <h3 className="serif-elegant text-xl font-bold text-amber-900 mb-3">Дата</h3>
-            <p className="serif-elegant text-lg text-amber-800 font-medium">3 августа 2025</p>
-            <p className="serif-elegant text-base text-amber-700">воскресенье</p>
+            <h3 className="serif-elegant text-xl font-bold text-amber-900 mb-3">Күні</h3>
+            <p className="serif-elegant text-lg text-amber-800 font-medium">2025 жылдың 3 тамызы</p>
+            <p className="serif-elegant text-base text-amber-700">жексенбі</p>
           </div>
 
           {/* Time */}
@@ -54,9 +54,9 @@ const EventDetails: React.FC = () => {
             <div className="mt-8 mb-6">
               <Clock className="w-12 h-12 text-amber-600 mx-auto mb-4" />
             </div>
-            <h3 className="serif-elegant text-xl font-bold text-amber-900 mb-3">Время</h3>
+            <h3 className="serif-elegant text-xl font-bold text-amber-900 mb-3">Уақыты</h3>
             <p className="serif-elegant text-lg text-amber-800 font-medium">13:00</p>
-            <p className="serif-elegant text-base text-amber-700">начало торжества</p>
+            <p className="serif-elegant text-base text-amber-700">той басталуы</p>
           </div>
 
           {/* Location */}
@@ -71,10 +71,10 @@ const EventDetails: React.FC = () => {
             <div className="mt-8 mb-6">
               <MapPin className="w-12 h-12 text-amber-600 mx-auto mb-4" />
             </div>
-            <h3 className="serif-elegant text-xl font-bold text-amber-900 mb-3">Место</h3>
-            <p className="serif-elegant text-lg text-amber-800 font-medium">Ресторан "ДОС"</p>
-            <p className="serif-elegant text-base text-amber-700">г. Караганда</p>
-            <p className="serif-elegant text-sm text-amber-600">ул. Хайрулла Кабжанова</p>
+            <h3 className="serif-elegant text-xl font-bold text-amber-900 mb-3">Орны</h3>
+            <p className="serif-elegant text-lg text-amber-800 font-medium">"ДОС" мейрамханасы</p>
+            <p className="serif-elegant text-base text-amber-700">Қарағанды қаласы</p>
+            <p className="serif-elegant text-sm text-amber-600">Хайрулла Қабжанов көшесі</p>
           </div>
         </div>
 
@@ -88,18 +88,18 @@ const EventDetails: React.FC = () => {
               <circle cx="75" cy="15" r="3" fill="#d4af37"/>
             </svg>
             
-            <h3 className="serif-elegant text-2xl font-bold text-amber-900 mb-6">Важная информация</h3>
+            <h3 className="serif-elegant text-2xl font-bold text-amber-900 mb-6">Маңызды ақпарат</h3>
             
             <div className="grid sm:grid-cols-2 gap-6 text-left">
               <div className="bg-amber-50 p-6 rounded-lg border border-amber-200">
-                <h4 className="serif-elegant font-bold text-amber-900 mb-2">Дресс-код</h4>
-                <p className="serif-elegant text-amber-800 text-sm">Торжественный стиль</p>
-                <p className="serif-elegant text-amber-700 text-xs mt-1">Приветствуются национальные наряды</p>
+                <h4 className="serif-elegant font-bold text-amber-900 mb-2">Киім стилі</h4>
+                <p className="serif-elegant text-amber-800 text-sm">Салтанатты киім</p>
+                <p className="serif-elegant text-amber-700 text-xs mt-1">Ұлттық киімдер қош келеді</p>
               </div>
               <div className="bg-amber-50 p-6 rounded-lg border border-amber-200">
-                <h4 className="serif-elegant font-bold text-amber-900 mb-2">Парковка</h4>
-                <p className="serif-elegant text-amber-800 text-sm">Бесплатная парковка</p>
-                <p className="serif-elegant text-amber-700 text-xs mt-1">возле ресторана</p>
+                <h4 className="serif-elegant font-bold text-amber-900 mb-2">Автотұрақ</h4>
+                <p className="serif-elegant text-amber-800 text-sm">Тегін автотұрақ</p>
+                <p className="serif-elegant text-amber-700 text-xs mt-1">мейрамхана жанында</p>
               </div>
             </div>
           </div>

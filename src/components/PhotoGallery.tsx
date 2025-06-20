@@ -49,7 +49,7 @@ const PhotoGallery: React.FC = () => {
                 "Махабат - жүректердің тілі"
               </p>
               <p className="serif-elegant text-xl md:text-2xl text-amber-700 italic">
-                Любовь - это язык сердец
+                Сүйіспеншілік - жандардың серіктестігі
               </p>
             </div>
             
@@ -60,7 +60,16 @@ const PhotoGallery: React.FC = () => {
                 "Бір-бірімізді тауып алдық, енді мәңгілікке бірге боламыз"
               </p>
               <p className="serif-elegant text-lg md:text-xl text-amber-700 italic">
-                Мы нашли друг друга, теперь будем вместе навсегда
+                Тағдырымыз біздерді қосты, енді жолымыз бір
+              </p>
+            </div>
+            
+            <div className="bg-gradient-to-r from-amber-100 to-orange-100 p-6 rounded-lg border border-amber-300">
+              <p className="serif-elegant text-lg text-amber-800 font-medium">
+                "Отбасы - адамның ең қасиетті байлығы"
+              </p>
+              <p className="serif-elegant text-sm text-amber-700 mt-2 opacity-90">
+                Ата-бабаларымыздың даналығы
               </p>
             </div>
           </div>

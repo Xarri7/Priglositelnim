@@ -46,19 +46,19 @@ const CountdownTimer: React.FC = () => {
           </svg>
           
           <h2 className="elegant-script text-5xl md:text-6xl font-bold text-amber-800 mb-4 text-shadow-gold">
-            До свадьбы осталось
+            Тойға дейін қалды
           </h2>
           <p className="serif-elegant text-xl text-amber-700 italic">
-            Той күніне дейін
+            Қуанышты күнге дейін
           </p>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto mb-12">
           {[
-            { value: timeLeft.days, label: 'Дней', labelKz: 'Күн' },
-            { value: timeLeft.hours, label: 'Часов', labelKz: 'Сағат' },
-            { value: timeLeft.minutes, label: 'Минут', labelKz: 'Минут' },
-            { value: timeLeft.seconds, label: 'Секунд', labelKz: 'Секунд' }
+            { value: timeLeft.days, label: 'Күн' },
+            { value: timeLeft.hours, label: 'Сағат' },
+            { value: timeLeft.minutes, label: 'Минут' },
+            { value: timeLeft.seconds, label: 'Секунд' }
           ].map((item, index) => (
             <div key={index} className="bg-white bg-opacity-90 backdrop-blur-sm rounded-xl p-6 md:p-8 shadow-lg border border-amber-200 relative">
               <div className="absolute top-3 left-1/2 transform -translate-x-1/2">
@@ -75,9 +75,6 @@ const CountdownTimer: React.FC = () => {
                 <div className="serif-elegant text-amber-700 font-semibold text-sm uppercase tracking-wide">
                   {item.label}
                 </div>
-                <div className="serif-elegant text-amber-600 text-xs opacity-80">
-                  {item.labelKz}
-                </div>
               </div>
             </div>
           ))}
@@ -92,10 +89,10 @@ const CountdownTimer: React.FC = () => {
           </svg>
           
           <p className="elegant-script text-3xl md:text-4xl text-amber-800 font-bold mb-3">
-            Радостный день приближается!
+            Қуанышты күн жақындап келеді!
           </p>
           <p className="serif-elegant text-lg text-amber-700 italic">
-            Қуанышты күн жақындап келеді!
+            Біздің бақытты сәтімізге дайын болыңыздар!
           </p>
         </div>
       </div>
